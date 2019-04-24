@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JEEVAN DOOT"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/doctormain"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Name"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:id="@+id/username"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#000000"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/square"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter contact no."
+                android:textColor="#000000"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:background="@drawable/square"
+                android:id="@+id/password"
+                android:fontFamily="monospace"
+                android:inputType="textPassword"
+                android:textColorHint="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/roundbutton"
+                android:text=" Next "
+                android:textColor="#ffffff"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+
+</LinearLayout>
+
+
+
+
+
